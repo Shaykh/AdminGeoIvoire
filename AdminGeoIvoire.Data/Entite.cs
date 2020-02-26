@@ -1,8 +1,6 @@
-using System;
-
 namespace AdminGeoIvoire.Data
 {
-    public interface IEntite
+    public class Entite : IEntite
     {
         string  Createur { get; set; }
 
@@ -11,5 +9,7 @@ namespace AdminGeoIvoire.Data
         string  DernierModificateur { get; set; }
 
         DateTime? DateDerniereModification { get; set; }
+
+        bool Actif { get; set; }
     }
 }
