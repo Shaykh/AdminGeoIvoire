@@ -1,15 +1,17 @@
+using System;
+
 namespace AdminGeoIvoire.Data
 {
     public class Entite : IEntite
     {
-        string  Createur { get; set; }
+        public string  Createur { get; set; }
 
-        DateTime? DateCreation { get; set; }
+        public DateTime? DateCreation { get; set; }
 
-        string  DernierModificateur { get; set; }
+        public string  DernierModificateur { get; set; }
 
-        DateTime? DateDerniereModification { get; set; }
+        public DateTime? DateDerniereModification { get; set; }
 
-        bool Actif { get; set; }
+        public bool Actif { get; set; }
     }
 }
