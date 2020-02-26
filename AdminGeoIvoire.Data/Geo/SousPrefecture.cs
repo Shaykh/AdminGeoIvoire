@@ -4,6 +4,13 @@ namespace AdminGeoIvoire.Data.Geo
 {
     public class SousPrefecture : EntiteGeo
     {
+        public SousPrefecture()
+        {
+        }
+        public SousPrefecture(int? id) : base(id)
+        {
+        }
+        
         public bool EstCommune { get; set; }
 
         public int DepartementID { get; set; }

@@ -10,9 +10,9 @@ namespace AdminGeoIvoire.Data.Dbo
 
         public int? ID { get; set; }
 
-        public string  NomClasse { get; set; }
+        public string  NomDeClasse { get; set; }
 
-        public string  NomPropriete { get; set; }
+        public string  NomDePropriete { get; set; }
 
         public string  Cle { get; set; }
 

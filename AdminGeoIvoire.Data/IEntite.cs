@@ -11,5 +11,7 @@ namespace AdminGeoIvoire.Data
         string  DernierModificateur { get; set; }
 
         DateTime? DateDerniereModification { get; set; }
+
+        bool Actif { get; set; }
     }
 }
