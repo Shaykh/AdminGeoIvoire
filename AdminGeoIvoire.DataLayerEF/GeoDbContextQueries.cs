@@ -23,7 +23,7 @@ namespace AdminGeoIvoire.DataLayerEF
 
             if (regionID.HasValue)
             {
-                requete = requete.Where(r => r.ID = regionID);
+                requete = requete.Where(r => r.ID == regionID);
             }
 
             return requete;
@@ -43,7 +43,7 @@ namespace AdminGeoIvoire.DataLayerEF
 
             if (departementID.HasValue)
             {
-                requete = requete.Where(r => r.ID = departementID);
+                requete = requete.Where(r => r.ID == departementID);
             }
 
             return requete;
@@ -63,7 +63,7 @@ namespace AdminGeoIvoire.DataLayerEF
 
             if (sousPrefectureID.HasValue)
             {
-                requete = requete.Where(r => r.ID = sousPrefectureID);
+                requete = requete.Where(r => r.ID == sousPrefectureID);
             }
 
             return requete;
@@ -87,7 +87,7 @@ namespace AdminGeoIvoire.DataLayerEF
 
             if (villageID.HasValue)
             {
-                requete = requete.Where(r => r.ID = villageID);
+                requete = requete.Where(r => r.ID == villageID);
             }
 
             return requete;
